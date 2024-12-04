@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="mtjava.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Job Application</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="job.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form id="job-form" action="submit-job-application.php" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required><br>
+
+                <label for="street-address">Street Address:</label>
+                <input type="text" id="street-address" name="street-address" required><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required><br>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required><br>
+
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code" required><br>
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" required><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2025 My-Town Java Coffee House<br>
+            <a href="mailto:yourEmail@javaCoffee.shop">yourEmail@javaCoffee.shop</a><br>
+            <p>F. Lastname</p>
+        </footer>
+    </div>
+</body>
+</html>
